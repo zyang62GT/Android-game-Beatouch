@@ -1,0 +1,46 @@
+{
+  "com.badlogic.gdx.graphics.g2d.BitmapFont": {
+    "newfont3": {"file": "fonts/newfont3.fnt"},
+    "font": {"file": "fonts/font.fnt"}
+  },
+  "com.badlogic.gdx.graphics.Color": {
+  "green": { "a": 1, "b": 0, "g": 1, "r": 0 },
+  "white": { "a": 1, "b": 1, "g": 1, "r": 1 },
+  "red": { "a": 1, "b": 0, "g": 0, "r": 1 },
+  "black": { "a": 1, "b": 0, "g": 0, "r": 0 }
+},
+  "com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+    "item1": {"up": "menu_item_idle", "down": "menu_item_down", "font": newfont3, "pressedOffsetY": -4}
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+    "default": { "up": "selection_menu_background" , "down": "selection_menu_selected", "font": newfont3, "pressedOffsetY": -4 }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
+    "default": { "font": newfont3},
+    "settings_title":{"font" :newfont3, fontColor: black}
+    "title": { "font": newfont3, fontColor: black},
+    "results_title": { "font": newfont3 , "fontColor": black},
+    "results_song_title": { "font": newfont3 , "fontColor": black},
+    "version_label": { "font": newfont3 , "fontColor": black},
+    "song_style_score": { "font": newfont3 },
+    "song_style_combo": { "font": newfont3 },
+    "song_style_result": { "font": newfont3, "fontColor": black },
+    "song_style_result_values": { "font": newfont3, "fontColor": black},
+    "song_result_song_title": { "font": newfont3, "fontColor": black},
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle": {
+    "diff_list": {"background": "song_selection_menu_background", "fontColorUnselected": black, "selection": "selection_menu_selected", "fontColorSelected": black, "font": newfont3 }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle":{
+    "default": { }
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle":{
+    "default-horizontal": { background: "selection_menu_background",knobBefore: "selection_menu_selected", knobAfter: "selection_menu_background"}
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle":{
+    "default-horizontal": {background: "knob_after", knobBefore:"knob_before"}
+  },
+  "com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle":{
+    "default":{checkboxOn: "selection_menu_background", checkboxOff: "selection_menu_background", font: newfont3}
+  }
+}
